@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Save Pin",
+  "description": "This extension saves a list of tabs to open and pin automatically.",
+  "version": "1.0",
+
+  "permissions": [
+      "storage",
+      "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
