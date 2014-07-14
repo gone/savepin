@@ -34,6 +34,6 @@ function openSavedTabs(){
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.getElementBId("save").click(savePinnedTabs);
-    document.getElementBId("open").click(openSavedTabs);
+    document.getElementById("save").click(savePinnedTabs);
+    document.getElementById("open").click(openSavedTabs);
 });
